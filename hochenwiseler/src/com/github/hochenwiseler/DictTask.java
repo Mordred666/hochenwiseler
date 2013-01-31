@@ -54,8 +54,8 @@ public class DictTask extends SwingWorker<Object, Object>
                     int calculated = HashCoder.getHashCode(hashcode, second);
                     if (calculated == Integer.MIN_VALUE)
                     {
-                        System.out.print(first.toLowerCase());
-                        System.out.println(second.toLowerCase());
+                        System.out.print(first);
+                        System.out.println(second);
                     }
                 }
             }
