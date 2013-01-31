@@ -29,7 +29,7 @@ import java.util.Map;
 public class FileScanner
 {
 
-    Map<Character, ArrayList<String>> hashmap = new HashMap<Character, ArrayList<String>>(40);
+    Map<Character, ArrayList<String>> hashmap = new HashMap<Character, ArrayList<String>>();
     Collection<String> allWords = new HashSet<String>();
 
     public FileScanner() throws IOException
